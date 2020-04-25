@@ -163,16 +163,24 @@ body {
 @media (max-width: 576px) {
 	.container {
 		padding: 0;
-		margin-left: 20px;
+		width: 350px;
 	}
 	.header {
 		margin-top: 20px;
-		width: 87%;
+		width: 100%;
 	}
 	.content {
-		width: 87%;
+		width: 100%;
+		height: 300px;
+	}
+	.item {
+		width: 350px;
 	}
 	.add-to-do {
-		width: 82%;
+		width: 330px;
+		margin-bottom: 80px;
+	}
+	.add-to-do input {
+		width: 250px;
 	}
 }
